@@ -13,6 +13,7 @@ https://colab.research.google.com/drive/1RWdMYt9G97wn-fFDB8S6NY5tp5e0idYO
 # 📊 Atividade de Quality Assurance (QA)
 
 1. Apresentação
+   
 Nome completo: Matheus Chinen Yassuda
 Curso e semestre: Quality Assurance - 5º Semestre  
 
