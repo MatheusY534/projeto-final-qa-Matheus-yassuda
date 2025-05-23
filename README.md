@@ -85,8 +85,11 @@ Arquivo: https://colab.research.google.com/drive/1QESzZvsPggblXSpm_6oDS8DSCM1Bdj
  ✅ Teste 03 – Teste WSC 
  
 Biblioteca: transformers, torch
+
 Objetivo: Avaliar a capacidade de um modelo de linguagem em resolver problemas de desambiguação referencial
+
 Resultado esperado: Identificar corretamente a referência ambígua no contexto
+
 Arquivo: https://colab.research.google.com/drive/1RWdMYt9G97wn-fFDB8S6NY5tp5e0idYO
 
 
