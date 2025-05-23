@@ -27,17 +27,14 @@ QA é um conjunto de processos e práticas que garantem que um software atenda a
 
 
 3. Conceitos Aprendidos Durante o Semestre
-- **Qualidade em software:** Aprendi que qualidade vai além de "funcionar" – inclui usabilidade, performance e segurança. Uma cultura de qualidade envolve toda a equipe, não apenas testadores.  
-- **Tipos de testes:**  
-  - **Unitário:** Testa funções isoladas.  
-  - **Integração:** Verifica comunicação entre módulos.  
-  - **Sistema/Aceitação:** Valida se o software atende às necessidades do usuário.  
-  - **Regressão:** Garante que novas alterações não quebrem funcionalidades existentes.  
-  - **Exploratório:** Testes não estruturados para descobrir bugs inesperados.  
-- **Planejamento de testes:** Utilizei critérios de aceitação para definir quando um teste passa/falha, criei planos de teste e casos detalhados.  
-- **Ferramentas:** GitHub (versionamento), Colab (scripts Python), ReqRes (API de testes).  
-- **Automação e CI/CD:** Integrei testes automatizados em pipelines para execução contínua.  
-- **Monitoramento:** Usei métricas como cobertura de testes e rastreamento de bugs para melhorar a qualidade.  
+
+Neste semestre, os conceitos que foram que:
+Qualidade em software refere-se ao conjunto de características que tornam um produto de software adequado ao seu propósito, atendendo às necessidades dos usuários e stakeholders, já a cultura de qualidade é um ambiente em que todos na equipe priorizam a qualidade desde o início do projeto, não apenas como uma etapa final de testes.
+Os testes de QA servem para garantir a qualidade do software, assegurando que ele atenda aos requisitos funcionais, não-funcionais e às expectativas dos usuários.
+O planejamentos de testes garente que os esforços de teste sejam eficientes, organizados e alinhados com os objetivos do projeto.
+O Google colab serve para escrever, executar e compartilhar código Python diretamente no navegador, sem necessidade de configuração local, já o GitHub serve armazenar, gerenciar, colaborar e distribuir software.
+A automação de testes é o uso de scripts e ferramentas para executar testes de software automaticamente, sem intervenção manual e o CI/CD serve para integrar código frequentemente em um repositório compartilhado, onde testes automatizados são executados a cada alteração.
+O monitoramento e controle de qualidade em software são processos contínuos que garantem que um produto de software mantenha padrões de qualidade durante e após o desenvolvimento, identificando e corrigindo problemas antes que afetem os usuários finais.
 
 
 
@@ -48,27 +45,42 @@ QA é um conjunto de processos e práticas que garantem que um software atenda a
 
 
 
+ 5. Explicação dos Testes Entregues
+✅ Teste 01 – Teste de Automação Selenium
+Biblioteca: selenium
+Objetivo: test_login: Verificar se o usuário consegue fazer login com credenciais válidas.
+          test_add_to_cart: Validar se um produto pode ser adicionado ao carrinho.
+          test_checkout_process: Testar o fluxo completo de checkout (carrinho, informações de envio e confirmação).
+    
+Resultado esperado: test_login: O URL deve mudar para inventory.html após o login.
+                    test_add_to_cart:O ícone do carrinho deve exibir "1" (quantidade de itens adicionados)
+                    test_checkout_process:A mensagem "Thank you for your order!" deve aparecer na confirmação final.
 
-## 5. Explicação dos Testes Entregues
-### ✅ Teste 01 – Verificação de status da API ReqRes  
-**Biblioteca:** Requests  
-**Objetivo:** Verificar se o endpoint retorna status HTTP 200.  
-**Resultado esperado:** Teste passa com sucesso se o status for 200.  
-**Arquivo:** [testes/teste_01.py](testes/teste_01.py)  
+Arquivo: https://colab.research.google.com/drive/1aetQ0h3KuwlUSDVFE1sVOG68q_EwUPcN
 
-### ✅ Teste 02 – [Nome do Teste]  
-**Biblioteca:** [Nome da biblioteca, ex: Pytest]  
-**Objetivo:** [Descreva o objetivo].  
-**Resultado esperado:** [Condição de sucesso].  
-**Arquivo:** [testes/teste_02.py](testes/teste_02.py)  
+ ✅ Teste 02 –  Teste Unitário
+Biblioteca: unittest
+Objetivo: Verificar se a função soma(a, b) comporta-se corretamente em diferentes cenários:
 
-### ✅ Teste 03 – [Nome do Teste]  
-**Biblioteca:** [Nome da biblioteca]  
-**Objetivo:** [Descreva o objetivo].  
-**Resultado esperado:** [Condição de sucesso].  
-**Arquivo:** [testes/teste_03.py](testes/teste_03.py)  
+test_soma_positivos: Validar soma de números positivos.
+test_soma_negativos: Validar soma de números negativos.
+test_soma_mista: Validar soma entre positivo e negativo.
+test_soma_zero: Validar soma quando um ou ambos os valores são zero.
 
----
+Resultado esperado:  
+test_soma_positivos	soma(2, 3)	5
+test_soma_negativos	soma(-1, -1)	-2
+test_soma_mista	soma(5, -3)	2
+test_soma_zero	soma(0, 0)	0
 
-## 6. Conclusão Final  
-O mais importante que aprendi foi como os testes automatizados podem ser poderosos para escalar a qualidade do software. Enxergo QA como uma área essencial no meu futuro profissional, especialmente com a crescente demanda por DevOps e automação. A ferramenta que mais me chamou atenção foi o GitHub Actions, por permitir integrar testes diretamente no fluxo de desenvolvimento, tornando o processo ágil e confiável.  
+Arquivo: https://colab.research.google.com/drive/1QESzZvsPggblXSpm_6oDS8DSCM1BdjKG
+
+ ✅ Teste 03 – Teste WSC 
+Biblioteca: transformers, torch
+Objetivo: Avaliar a capacidade de um modelo de linguagem em resolver problemas de desambiguação referencial
+Resultado esperado: Identificar corretamente a referência ambígua no contexto
+Arquivo: https://colab.research.google.com/drive/1RWdMYt9G97wn-fFDB8S6NY5tp5e0idYO
+
+
+6. Conclusão Final  
+O mais importante que aprendi foi como os testes automatizados podem ser poderosos para escalar a qualidade do software. Enxergo QA como uma área essencial no meu futuro profissional, especialmente com a crescente demanda por DevOps e automação. A ferramenta que mais me chamou atenção foi o GitHub, por causa da grande utilização pelo mercado e por permitir integrar testes diretamente no fluxo de desenvolvimento, tornando o processo ágil e confiável.  
