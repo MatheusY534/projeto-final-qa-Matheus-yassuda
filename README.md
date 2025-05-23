@@ -52,6 +52,7 @@ O monitoramento e controle de qualidade em software são processos contínuos qu
 ✅ Teste 01 – Teste de Automação Selenium
 
 Biblioteca: selenium
+
 Objetivo: test_login: Verificar se o usuário consegue fazer login com credenciais válidas.
           test_add_to_cart: Validar se um produto pode ser adicionado ao carrinho.
           test_checkout_process: Testar o fluxo completo de checkout (carrinho, informações de envio e confirmação).
@@ -65,6 +66,7 @@ Arquivo: https://colab.research.google.com/drive/1aetQ0h3KuwlUSDVFE1sVOG68q_EwUP
  ✅ Teste 02 –  Teste Unitário
  
 Biblioteca: unittest
+
 Objetivo: Verificar se a função soma(a, b) comporta-se corretamente em diferentes cenários:
 
 test_soma_positivos: Validar soma de números positivos.
