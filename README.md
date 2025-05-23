@@ -28,7 +28,7 @@ QA é um conjunto de processos e práticas que garantem que um software atenda a
 
 
 
-4. Conceitos Aprendidos Durante o Semestre
+3. Conceitos Aprendidos Durante o Semestre
 
 Neste semestre, os conceitos que foram que:
 Qualidade em software refere-se ao conjunto de características que tornam um produto de software adequado ao seu propósito, atendendo às necessidades dos usuários e stakeholders, já a cultura de qualidade é um ambiente em que todos na equipe priorizam a qualidade desde o início do projeto, não apenas como uma etapa final de testes.
