@@ -46,7 +46,9 @@ O monitoramento e controle de qualidade em software são processos contínuos qu
 
 
  5. Explicação dos Testes Entregues
+    
 ✅ Teste 01 – Teste de Automação Selenium
+
 Biblioteca: selenium
 Objetivo: test_login: Verificar se o usuário consegue fazer login com credenciais válidas.
           test_add_to_cart: Validar se um produto pode ser adicionado ao carrinho.
@@ -59,6 +61,7 @@ Resultado esperado: test_login: O URL deve mudar para inventory.html após o log
 Arquivo: https://colab.research.google.com/drive/1aetQ0h3KuwlUSDVFE1sVOG68q_EwUPcN
 
  ✅ Teste 02 –  Teste Unitário
+ 
 Biblioteca: unittest
 Objetivo: Verificar se a função soma(a, b) comporta-se corretamente em diferentes cenários:
 
@@ -76,6 +79,7 @@ test_soma_zero	soma(0, 0)	0
 Arquivo: https://colab.research.google.com/drive/1QESzZvsPggblXSpm_6oDS8DSCM1BdjKG
 
  ✅ Teste 03 – Teste WSC 
+ 
 Biblioteca: transformers, torch
 Objetivo: Avaliar a capacidade de um modelo de linguagem em resolver problemas de desambiguação referencial
 Resultado esperado: Identificar corretamente a referência ambígua no contexto
